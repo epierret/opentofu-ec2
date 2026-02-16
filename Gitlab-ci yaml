@@ -1,3 +1,4 @@
+
 stages:
   - validate
   - plan
@@ -8,12 +9,13 @@ variables:
   TF_WORKSPACE: "default"
 
 before_script:
-  # Install OpenTofu CLI
   - apk add --no-cache curl unzip git bash
   - curl -L https://github.com/opentofu/opentofu/releases/download/v0.2.0/opentofu_0.2.0_linux_amd64.zip -o opentofu.zip
   - unzip opentofu.zip
   - mv opentofu /usr/local/bin/
   - opentofu version
+  - git config --global user.email "pierretenrique@gitlab.com"
+  - git config --global user.name "Enrique Pierret"
 
 validate:
   stage: validate
@@ -36,4 +38,4 @@ apply:
   script:
     - opentofu init
     - opentofu apply -auto-approve tfplan
-  when: manual  # Manual approval before apply
+  when: manual
