@@ -13,7 +13,7 @@ Déploiement d’une image Nginx personnalisée pour la VM
 Sécurité et révision automatique de l’image GitLab grâce à Plumber > https://github.com/opengovsg/plumber.git une solution OpenSource decouvert au cours des Native days.
 
 
-              <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/53f02c34-3773-48e7-807f-972b73079deb" />
+  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/53f02c34-3773-48e7-807f-972b73079deb" />
 
 
 
