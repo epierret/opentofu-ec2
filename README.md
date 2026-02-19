@@ -10,7 +10,8 @@ Installation de Nginx sur la VM via un script shell
 
 Déploiement d’une image Nginx personnalisée pour la VM
 
-Sécurité et révision automatique de l’image GitLab grâce à Plumber > https://github.com/opengovsg/plumber.git une solution OpenSource decouvert au cours des Native days.
+Sécurité et révision automatique de l’image GitLab grâce à Plumber <img width="103" height="32" alt="image" src="https://github.com/user-attachments/assets/b19645a8-ea25-45e8-bcb3-914a927b5fe1" />
+> https://github.com/getplumber/plumber une solution OpenSource decouvert au cours des Native days.
 
 
   <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/53f02c34-3773-48e7-807f-972b73079deb" />
